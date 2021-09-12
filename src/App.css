@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+.days1 {
+  margin-top: 2%;
+  background: #eee;
+  border-radius: 8px;
+  margin-left: 0.3%;
+  float: left;
+  text-align: center;
+  align-content: center;
+}
+
+.days1 li {
+  list-style-type: none;
+  text-align: center;
+  align-content: center;
+  padding-top: 25%;
+}
+
+
+.days1:hover {
+  background: rgb(255, 0, 0);
+  border-radius: 8px;
+  margin-left: 0.3%;
+  float: left;
+}
