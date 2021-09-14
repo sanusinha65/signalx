@@ -18,16 +18,20 @@ const Api = () => {           // for fetching api
     return (
         
         <div className="body">
-            <h1> Data Of </h1>
+            <div className="rect"> </div>
+            <h1 className="head1"> DATA OF PROFIT & LOSS MONTH WISE </h1>
+           
+
         { 
-            date.map((curElem) => {     // for mapping api
+            date.map((curElem) => {   
+                 // for mapping api
                 return( 
                     // for showing fetched data in API 
                     <div className="bg">        
                     
 <div className="days1">
     {/* for showing date  */}
-<li> {curElem.date[8]}{curElem.date[9]}</li>      
+<li> {curElem.date[8]}{curElem.date[9]}{curElem.date[7]}{curElem.date[5]}{curElem.date[6]}</li>      
 {/* for showing profits & loss  */}
 <li className="pnl">{curElem.pnl} </li>
 
