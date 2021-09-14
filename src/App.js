@@ -1,11 +1,12 @@
 import './App.css';
-import Api from './components/Api.js';
+
+import Serv from './components/Serv';
+
 
 function App() {
   return (
     <div>
-     <Api />
-
+    <Serv />
     </div>
   );
 }

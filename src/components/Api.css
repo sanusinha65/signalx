@@ -1,29 +1,36 @@
 .days1 {
     background: rgb(0, 0, 0);
     color: white;
-    width: 50px;
+    width: 90px;
     height: 50px;
     text-align: center;
-    border-radius: 8px;
+    border-radius: 10px;
+    margin-top: 5%;
     margin-left: 0.3%;
     float: left;
+    
 }
   
 .days1:hover {
-    background: rgb(255, 0, 0);
-    border-radius: 8px;
+    background-color: coral;
+    border-radius: 10px;
     margin-left: 0.3%;
     float: left;
   }
 
 .pnl {
-    color: black;
-
+    color: rgb(255, 255, 255);
+    width: 90px;
+    height: 50px;
     padding-top: -40%;
+    background-color: black;
+    margin-top: 8%;
+    border-radius: 10px;
 }
 
 .pnl:hover {
-    color: white;
+    background-color: crimson;
+    color: rgb(255, 255, 255);
     
 }
 
