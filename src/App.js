@@ -6,7 +6,8 @@ import Api from './components/Api';
 function App() {
   return (
     <div>
-    <Api />
+{/* For Rendering DATA */}
+    <Api />       
     </div>
   );
 }
